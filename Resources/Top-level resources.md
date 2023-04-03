@@ -1,0 +1,6 @@
+- MDN
+- OSSU
+- LearnWithLeon
+- freeCodeCamp
+- Khan Academy
+- Ulverse.io (A collection of open source UI elements that you can use in your proyects)
