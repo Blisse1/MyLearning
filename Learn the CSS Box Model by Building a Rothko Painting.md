@@ -75,3 +75,6 @@ y el elemento que contiene, en este caso .canvas.
 - Add padding of 1px to the .canvas element to give the .one element something solid to push off of.
 
 ![[Pasted image 20230404090028.png]]
+
+
+- Esto es una prueba de manejar una branch con github
