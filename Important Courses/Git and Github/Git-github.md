@@ -123,6 +123,9 @@ git push -u origin main
 touch .gitignore
 ```
 
+## para clonar un remoto 
+- se le debe cambiar el url para hacerle un push a un repo propio
+
 
 ## Crear SSH
 
