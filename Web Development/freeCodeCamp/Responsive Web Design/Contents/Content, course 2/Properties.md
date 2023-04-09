@@ -188,7 +188,7 @@ background: linear-gradient(90deg)
 ## Box-shadow css property
 #css/box-shadow
 
-- This property lets you apply one or more shadows around an element
+- This property lets you apply one or more shadows around an element or even increment its area
 
 ```css
 /* Syntax of box-shadow */
@@ -240,5 +240,47 @@ box-shadow: offsetX offsetY blurRadius spreadRadius color;
 - Sets the minimum height of an element. It prevents the used value (?) of the height property from becoming smaller than the value specified for min-height.
 
 - The element's height is set to the value of min-height whenever min-height is larger than max-height or height 
+
+<hr>
+
+## Overflow property
+#css/overflow
+
+- It sets the desired behavior for an element's overflow, i.e, when an element's content is too big to fit its block formatting context in both directions.
+- https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
+
+- You don't always have to use pixels when sizing an element, you can do it with percentages too. And remember that percentages are relative to its parent, like in this example:
+
+```html
+<div class="frame">
+	<div class="canvas">
+		<div class="one"></div>
+		<div class="two"></div>
+		<div class="three"></div>
+	</div>
+</div>
+```
+
+```css
+/* the width property of three class is taking 90% of the width of the parent
+In this case, the parent is canvas.
+*/
+.three {
+	width: 90%;
+}
+```
+
+<hr>
+
+## Transform property
+#css/transform
+
+- This property lets you rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model.
+
+```css
+.three {
+	transform: rotate(0.5deg);
+}
+```
 
 <hr>
