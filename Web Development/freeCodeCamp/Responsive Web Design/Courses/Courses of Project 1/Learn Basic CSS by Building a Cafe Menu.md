@@ -8,7 +8,7 @@
 - [[Default margins]]
 - [[Selectors]]
 - [[Linking]]
-- [[Web Development/freeCodeCamp/Responsive Web Design/Contents/Content, course 1/Comments]]
+- [[Web Development/freeCodeCamp/Responsive Web Design/First project contents/Content, course 1/Comments]]
 
 <hr>
 

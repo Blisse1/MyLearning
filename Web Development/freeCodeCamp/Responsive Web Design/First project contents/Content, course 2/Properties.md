@@ -284,3 +284,18 @@ In this case, the parent is canvas.
 ```
 
 <hr>
+
+## Box-sizing property
+#css/box-sizing
+
+- If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. This typically makes it so much easier to size elements 
+
+```css
+/* Applying border-box to all elements. */
+* {
+	box-sizing: border-box;
+}
+```
+
+<hr>
+

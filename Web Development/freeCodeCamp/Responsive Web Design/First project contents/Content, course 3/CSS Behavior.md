@@ -178,3 +178,39 @@ y el elemento que contiene, en este caso .canvas.
 - Replace the padding property with **overflow set to hidden**, changing the canvas back to its original dimensions
 
 <hr>
+
+## CSS behavior (images)
+
+- Your images are too big. Create a class to target them and give them all a width of 100% (so they can shrink) and a max-width of 350px so they shrink as needed but dont get too big. Also set the hight property to 300px to keep your images a uniform size.
+
+```css
+.gallery img {
+	height: 300px;
+	width: 100%; /* So they are all the same width as their parent. */
+	max-width: 350px;
+}
+```
+
+<hr>
+
+## Distorted images, object-fit property
+#css/object-fit
+
+- Notice how some of your images have become distorted. This is because the images have different aspect ratios. Rather than setting each aspect ratio individually, you can use the object-fit property to determine how images should behave.
+
+- Give your .gallery img selectr the object-fit property and set it to **cover** value. This will tell the image to fill the img container while maintaining aspect ratio, resulting in cropping to fit.
+
+<hr> 
+
+## space between flex-items 
+#css/gap
+
+- The **gap** CSS shorthand property sets the gaps, also knowns as gutters, between **rows and columns** The gap property and it's row-gap and column gap sub-properties provide this functionality for flex, grid, and multi-column layout. You apply the property to the container element.
+
+```css
+/* Applied to the container */
+
+.container {
+	gap: 16px;
+}
+```
