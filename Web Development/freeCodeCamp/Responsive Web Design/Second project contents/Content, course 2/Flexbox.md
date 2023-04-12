@@ -75,6 +75,9 @@
 
 - It determines how the items inside a **flex container** are positioned along **the main axis** (the horizontal one), affecting their position and the space around them.
 
+### Space-between property
+- Items are evenly distributed in the line; first item is on the start line, last item is on the end line. 
+
 <hr>
 
 
