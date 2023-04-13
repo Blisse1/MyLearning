@@ -1,0 +1,2 @@
+Don't declare things in your CSS before you actually know you need them.
+Apply them when you need it. Apply them where you need them and you're probably going to get a better result where you have less fighting going on on a lot less issues overall within your css 
