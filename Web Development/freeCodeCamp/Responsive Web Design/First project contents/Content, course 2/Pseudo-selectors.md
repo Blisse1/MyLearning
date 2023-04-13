@@ -36,7 +36,7 @@ a:active {
 
 <hr>
 
-## CSS pseudoclass
+## CSS pseudo-class
 
 - You can select the last element of a specific type using last-of-type css pseudo class:
 
@@ -45,6 +45,20 @@ a:active {
 p:last-of-type {
 
 }
+```
+
+<hr>
+
+## Pseudo-selector, :not
+#css/pseudo-selectors 
+
+- Can be used to select all elements that do not match the given CSS rule
+
+```css
+div:not("#example") {
+	color: red;
+}
+/*The above selects all div elements without and id of example*/
 ```
 
 <hr>

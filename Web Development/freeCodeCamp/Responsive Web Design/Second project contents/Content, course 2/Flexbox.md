@@ -8,6 +8,7 @@
 	- Flex-wrap
 	- Justify-content
 	- Align-items
+- Notes
 
 <hr>
 
@@ -93,3 +94,23 @@
 
 <hr>
 
+## flexbox tip
+#css/flexbox-tip
+
+- El contenido de un elemento también cuenta como *contenido* de flex
+
+```html
+<p class="ejemplo">Texto afectado</p>
+```
+
+```css
+/*Justify-content property will affect the content of the p element
+in this case it would be Texto afectado
+*/
+.ejemplo {
+	display: flex;
+	justify-content: flex-end;
+}
+```
+
+<hr>
