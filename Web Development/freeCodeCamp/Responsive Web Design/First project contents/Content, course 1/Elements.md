@@ -249,7 +249,7 @@ You can add the style in the head of the HTML.
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-
+- A viewport definition tells the browser how to render the page. 
 
 <hr>
 
@@ -351,6 +351,7 @@ You can add the style in the head of the HTML.
 - The element should not contain more information than the contact information like a publication date (which belongs to a time element)
 
 - An address can be placed in a footer element, if any.
+- The address element does not have to contain a physical geographical location. It can be used to provide a link to the subject.
 
 <hr>
 
@@ -396,6 +397,8 @@ You can add the style in the head of the HTML.
 
 - Enclose information about the author in an **address element** that can be included into the footer element.
 - When the nearest ancestor sectioning content or sectioning root element is the body element the footer applies to the whole page.
+
+- The footer element is a container for a collection of content that is related to the page.
 
 <hr>
 

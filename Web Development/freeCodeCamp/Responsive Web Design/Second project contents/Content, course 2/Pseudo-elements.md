@@ -25,3 +25,13 @@
 ![[Pasted image 20230410073619.png]]
 
 <hr>
+
+## before pseudo-element and content property
+
++ To prevent unnecessary repetition, target the before pseudo-element and give it content property.
+
+```css
+p::before {
+	content:"Question #";
+}
+```

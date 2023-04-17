@@ -214,3 +214,25 @@ y el elemento que contiene, en este caso .canvas.
 	gap: 16px;
 }
 ```
+
+<hr>
+
+## CSS behavior
+
+- On small screens, the ul list bar overflows the right side of the screen.
+- Fix this by using flexbox to wrap the ul content, then set the following properties to correctly align the text,
+
+```css
+align-items: center;
+padding-inline-start: 0;
+margin-block: 0;
+height: 100%;
+```
+
+<hr>
+
+## To remove the default styling for the list items 
+
+- Use list-style property.
+
+<hr>

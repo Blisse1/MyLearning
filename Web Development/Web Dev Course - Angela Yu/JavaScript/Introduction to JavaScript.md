@@ -36,7 +36,16 @@ It is like a box with a label outside of it. The box can save the information an
 >- You should also use camel casing. 
 >- ![[Screenshot from 2023-03-12 22-36-30.png]]
 
+## Increment and decrement expressions
 
+```js
+let i = 5;
+i+=2;
+i++;
+i--;
+```
+
+If you ever want to increment not just by one, just use the += expression to do so.
 
 
 

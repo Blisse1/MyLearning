@@ -45,3 +45,13 @@ console.log("Welcome " + nameFormatted + followingWord);
 ```
 
 #javascript/strings-challenge #javascript/strings-slice-method
+
+<hr>
+
+What does `y`  equal?
+
+1.  var x = 3; // 3
+2.  var y = x++; // 3
+3.  y += 1; // 4
+
+## Parameters and arguments
