@@ -129,3 +129,5 @@ touch .gitignore
 
 ## Crear SSH
 
+- Una vez uno crea SSH y tiene repo creada con SSH, ya luego lo que le pide es la contraseña
+

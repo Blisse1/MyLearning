@@ -47,6 +47,12 @@ i--;
 
 If you ever want to increment not just by one, just use the += expression to do so.
 
+## Functions 3 Output and return values
+
+## Random Number Generator 
+
+### Math.random() method
+
 
 
 

@@ -181,7 +181,7 @@ y el elemento que contiene, en este caso .canvas.
 
 ## CSS behavior (images)
 
-- Your images are too big. Create a class to target them and give them all a width of 100% (so they can shrink) and a max-width of 350px so they shrink as needed but dont get too big. Also set the hight property to 300px to keep your images a uniform size.
+- Your  images are too big. Create a class to target them and give them all a width of 100% (so they can shrink) and a max-width of 350px so they shrink as needed but dont get too big. Also set the hight property to 300px to keep your images a uniform size.
 
 ```css
 .gallery img {

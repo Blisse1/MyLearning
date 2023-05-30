@@ -32,7 +32,7 @@ Tags: #html/attributes
 <hr>
 
 ## Action attribute
-#html/action-attribute
+#html/action-attribute #html/forms
 
 - The ***action attribute*** indicates where form data should be sent.
 
@@ -146,7 +146,7 @@ Tags: #html/attributes
 <hr>
 
 ## Method attribute 
-#html/method
+#html/method #html/forms
 
 - The method attribute specifies how to send form-data to the URL specified in the action attribute. The form-data can be sent via a GET request as URL parameters (with method="get") or via a post request as data in the requested body (method="post")
 
